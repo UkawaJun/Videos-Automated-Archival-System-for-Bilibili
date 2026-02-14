@@ -16,11 +16,12 @@
     *   Scrapes video's urls list from creator spaces via **Selenium** and generates `BID.xlsx`.
     *   通过 **Selenium** 爬取 UP 主投稿列表，生成种子文件 `BID.xlsx`。
 2.  **Phase 2: Archival Pipeline (`GOOD_JOB2.py`)**
-    *   **Acquisition**: Downloads 1080P streams via `yt-dlp` & `FFmpeg`.
+    *   **Acquisition**: Downloads 720P streams via `yt-dlp` & `FFmpeg`.
     *   **Mining**: Fetches real-time stats (views/favs) via RESTful APIs.
     *   **Security**: Generates random passwords and creates **AES-256** encrypted ZIPs.
     *   **归档任务**: 利用 `yt-dlp` & `FFmpeg` 采集高清流；通过 RESTful API 抓取播放量等统计数据；生成随机密码并进行 **AES-256** 加密打包。
-<img width="1600" height="1814" alt="Archival_Pipeline_Flowchart (1)" src="https://github.com/user-attachments/assets/b9688456-3bc2-4989-bc8c-0d1330d5760c" />
+<img width="1600" height="1806" alt="Archival_Pipeline_Flowchart (2)" src="https://github.com/user-attachments/assets/e24dbe8e-4af9-4de6-b917-24037abaf70a" />
+
 
 3.  **Phase 3: Final result (`download_report.xlsx`)**
 <img width="439" height="116" alt="669c37602d610b84b56b79cec1d5098d" src="https://github.com/user-attachments/assets/18c1fe8c-218f-4116-8988-b1e344a4e79b" />
@@ -76,4 +77,4 @@ Cloud storage is prone to remote "locking" or censorship. So I built this "Local
 *   **Scraping**: Selenium, Chrome WebDriver
 *   **Media**: yt-dlp, FFmpeg
 *   **Data**: openpyxl (Excel), Requests (API)
-*   **Storage**: pyzipper (AES-256 Encryption)
+*   **Storage**: pyzipper (AES-256 Encryption - 7z)
