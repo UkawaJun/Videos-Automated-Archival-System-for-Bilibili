@@ -10,7 +10,7 @@
 *   **Ver 1.0 (2026.01.26 - 2026.02.15)**: 
     *   Basic Selenium scraping and MP4 downloading logic.
     *   实现了基础的 Selenium 爬虫与 MP4 下载逻辑。
-    *   In this time， I have already downloaded 1500+ videos(300GB+ for 3 days) for myself, It proves this program is OKay
+    *   In this time, I have already downloaded 1500+ videos(300GB+ for 3 days) for myself, It proves this program is OKay
     *   这个时候我已经下载了1500+的视频量(300GB+ for 3 days),这能够证明程序的可行性
 
 ## 1. Project Overview / 项目简介
